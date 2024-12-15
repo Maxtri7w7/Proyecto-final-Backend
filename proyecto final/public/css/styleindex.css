@@ -1,0 +1,196 @@
+/* Estilo general para el cuerpo */
+/* Estilo general para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3f5fece5;
+  color: #333;
+}
+button {
+  display: inline-block; /* Hace que el enlace se comporte como un botón */
+  background-color: #3278d4; /* Color de fondo */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado */
+  padding: 10px; /* Espaciado interno */
+  border: none; /* Quita cualquier borde */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto dentro del "botón" */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  cursor: pointer; /* Cambia el cursor al de un botón */
+}
+
+.botoneli {
+  background-color: #c92121;
+}
+
+button:hover {
+  background-color: #4b7ec0;
+}
+.botoneli:hover {
+  background-color: #881f1f;
+}
+/* Estilo para el enlace */
+a {
+  display: block;
+
+  text-decoration: none;
+  color: inherit; /* Asegura que los enlaces tengan el color del texto circundante */
+}
+
+/* Títulos principales */
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #dddddd;
+}
+#EspNat {
+  color: rgb(34, 58, 163);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid, 2px, rgb(0, 31, 172);
+  border-radius: 15px;
+  background-color: rgb(255, 193, 34);
+}
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border: solid, 2px, rgb(0, 31, 172);
+  border-radius: 15px;
+  background-color: rgb(95, 169, 255);
+}
+
+/* Párrafos */
+p {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px 0;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border: solid, 2px, rgb(0, 31, 172);
+  border-radius: 15px;
+  background-color: rgb(255, 193, 34);
+}
+
+/* Espaciado entre elementos */
+br {
+  display: block;
+  margin-bottom: 20px;
+}
+.labelagr {
+  color: #ececec;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.cont_form {
+  display: inline-block;
+  padding: 5px;
+  border: solid #4b7ec0;
+  background-color: #6aa3ee;
+}
+
+.botonchafa {
+  display: inline-block; /* Hace que el enlace se comporte como un botón */
+  background-color: #3278d4; /* Color de fondo */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado */
+  padding: 10px; /* Espaciado interno */
+  border: none; /* Quita cualquier borde */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto dentro del "botón" */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  cursor: pointer; /* Cambia el cursor al de un botón */
+}
+
+.botonchafa:hover {
+  background-color: #006eff; /* Color de fondo al pasar el mouse */
+}
+
+/*productos*/
+.contenedor {
+  display: flex;
+  flex-direction: row; /* Permite que los productos se ajusten a varias filas */
+  gap: 20px; /* Espacio entre productos */
+  justify-content: center;
+  max-width: 1000px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  width: 100%; /* Para que el título ocupe toda la fila */
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Contenedor de productos */
+.contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(220px, 1fr)
+  ); /* 1 columna mínima de 220px */
+  gap: 20px; /* Espacio entre tarjetas */
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Estilos de la tarjeta de producto */
+.producto {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px; /* Ancho fijo para que se alineen en filas */
+  height: 300px;
+  background-color: #44498f;
+  display: inline-block;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.imagen-producto {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+.titulo-producto {
+  font-size: 18px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.precio-producto {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-comprar {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-comprar:hover {
+  background-color: #218838;
+}
